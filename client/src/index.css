@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Quicksand;
+    color: #333;
+}
+
+p {
+    line-height: 1.6;
+}
+
+
+/* Navbar Component */
+nav {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    align-items: center;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.nav-bar h1 {
+    color: #f1356d;
+    font-size: 28px;
+}
+
+.nav-bar p {
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+
+.nav-links {
+    margin-left: auto;
+}
+
+.nav-links a {
+    text-decoration: none;
+    padding: 7px;
+    margin-left: 16px;
+}
+
+.nav-links a:hover {
+    color: #f1356d;
+}
+
+/* Home Component */
+.all-blogs {
+    max-width: 1200px;
+    margin: 40px auto;
+}
+
+.blog {
+    padding: 4px 15px;
+    margin: 20px 0;
+    border-left: 3px solid #f1356d;
+}
+
+.blog a {
+    text-decoration: none;
+}
+
+.title {
+    color: #f1356d;
+}
+
+/* Blog Details Component */
+.blog-details {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.blog-details .title {
+    margin: 20px 0 10px 0;
+}
+
+.blog-details .body {
+    margin: 10px 0;
+    padding: 10px 0;
+}
+
+.blog-details button {
+    padding: 8px 12px;
+    background-color: #f1356d;
+    color: #fff;
+    border: 0;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+
+/* Create Blog Component */
+.create-blog {
+    max-width: 400px;
+    margin:0 auto;
+    text-align: center;
+}
+
+.create-blog h2 {
+    color: #f1356d;
+    margin: 40px 0;
+}
+
+.create-blog label {
+    display: block;
+    text-align: left;
+}
+
+.create-blog input,
+.create-blog textarea,
+.create-blog select {
+    display: block;
+    width: 100%;
+    margin: 15px 0;
+    border: 1px solid #ddd;
+    padding: 6px 10px;
+}
+
+.create-blog textarea {
+    height: 100px;
+}
+
+.create-blog button {
+    padding: 8px 12px;
+    background-color: #f1356d;
+    color: #fff;
+    border: 0;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
